@@ -1,0 +1,48 @@
+.socialNetwork {
+  height: 500px; }
+  .socialNetwork__socialButton {
+    display: flex;
+    height: 150px;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    align-items: flex-end;
+    justify-content: space-between; }
+    .socialNetwork__socialButton h2 {
+      color: #2aaeb1; }
+    .socialNetwork__socialButton button {
+      background-color: #2aaeb1;
+      color: white;
+      width: 150px;
+      border: none; }
+    .socialNetwork__socialButton__myCanvas {
+      background-color: white;
+      margin-bottom: 5px; }
+  .socialNetwork .firstImg {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/room1.jpg");
+    background-position: center;
+    background-size: cover; }
+  .socialNetwork .secondImg {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/room2.jpg");
+    background-position: center;
+    background-size: cover; }
+  .socialNetwork .thirdImg {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/room3.jpg");
+    background-position: center;
+    background-size: cover; }
+  .socialNetwork .fourthImg {
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/room4.jpg");
+    background-position: center;
+    background-size: cover; }
+
+@media screen and (max-width: 575px) {
+  .socialNetwork__socialButton {
+    width: 200px; } }

@@ -1,0 +1,189 @@
+.rooms__title {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px; }
+  .rooms__title h2 {
+    border-bottom: 1px solid black;
+    margin-bottom: -14px; }
+  .rooms__title #can {
+    background-color: black; }
+  .rooms__title button {
+    background-color: #2aaeb3;
+    color: white;
+    border: none;
+    padding: 0 0;
+    width: 200px;
+    height: 40px; }
+    .rooms__title button #myCanvas {
+      background-color: white;
+      margin-bottom: 5px;
+      margin-left: 5px; }
+
+.myContainer {
+  margin-top: 50px;
+  margin-left: 0; }
+  .myContainer__slider {
+    width: 1300px;
+    margin: 10px; }
+    .myContainer__slider img {
+      width: 400px;
+      height: 300px; }
+    .myContainer__slider .divWithImg {
+      margin-right: 20px;
+      margin-bottom: 40px;
+      background-image: url("../images/bed1.jpg");
+      height: 350px;
+      background-size: cover;
+      outline: none; }
+      .myContainer__slider .divWithImg-positionStyle {
+        display: flex;
+        position: relative;
+        top: 165px;
+        background-color: white; }
+        .myContainer__slider .divWithImg-positionStyle p {
+          margin-right: 30px;
+          margin-bottom: 0; }
+        .myContainer__slider .divWithImg-positionStyle span {
+          color: #2aaeb3; }
+    .myContainer__slider .divWithImg1 {
+      margin-right: 20px;
+      margin-bottom: 25px;
+      background-image: url("../images/bed2.jpg");
+      height: 350px;
+      background-size: cover;
+      outline: none; }
+    .myContainer__slider .divWithImg2 {
+      margin-right: 20px;
+      margin-bottom: 25px;
+      background-image: url("../images/bed3.jpg");
+      height: 350px;
+      background-size: cover;
+      outline: none; }
+    .myContainer__slider .divWithImg3 {
+      margin-right: 20px;
+      margin-bottom: 25px;
+      background-image: url("../images/bed4.jpg");
+      height: 350px;
+      background-size: cover;
+      outline: none; }
+
+/* Custom Arrow */
+.prevArrow {
+  color: black;
+  position: absolute;
+  top: 38%;
+  left: 3em;
+  font-size: 1.5em;
+  background-color: white;
+  width: 50px;
+  height: 40px;
+  padding-left: 15px; }
+  .prevArrow:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white; }
+
+.nextArrow {
+  color: black;
+  position: absolute;
+  top: 38%;
+  right: -4em;
+  font-size: 1.5em;
+  background-color: white;
+  width: 50px;
+  height: 40px;
+  padding-left: 15px; }
+  .nextArrow:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white; }
+
+.boxWithText {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 660px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between; }
+  .boxWithText__first {
+    margin-left: -150px;
+    background-color: black;
+    color: white;
+    height: 272px;
+    width: 542px;
+    display: grid;
+    align-items: center; }
+    .boxWithText__first h2 {
+      width: 300px;
+      margin-left: 53px;
+      margin-top: 56px; }
+    .boxWithText__first button {
+      width: 172px;
+      margin-left: 54px;
+      margin-bottom: 12px; }
+    .boxWithText__first__myCanvas {
+      background-color: black;
+      margin-bottom: 3px; }
+  .boxWithText__second {
+    padding-top: 70px;
+    padding-left: 30px;
+    width: 400px; }
+
+@media screen and (max-width: 575px) {
+  .myContainer__slider {
+    display: none; }
+  .proba {
+    display: block; }
+    .proba .divWithImg {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      background-image: url("../images/bed1.jpg");
+      height: 350px;
+      background-size: cover; }
+      .proba .divWithImg-positionStyle {
+        display: flex;
+        position: relative;
+        top: 335px;
+        background-color: white; }
+        .proba .divWithImg-positionStyle p {
+          margin-right: 30px;
+          margin-bottom: 0; }
+    .proba .divWithImg1 {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      background-image: url("../images/bed2.jpg");
+      height: 350px;
+      background-size: cover; }
+    .proba .divWithImg2 {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      background-image: url("../images/bed3.jpg");
+      height: 350px;
+      background-size: cover; }
+    .proba .divWithImg3 {
+      margin-right: 5px;
+      margin-bottom: 20px;
+      background-image: url("../images/bed4.jpg");
+      height: 350px;
+      background-size: cover; }
+  .prevArrow,
+  .nextArrow {
+    display: none !important; }
+  .boxWithText {
+    display: block;
+    width: 350px;
+    height: 650px; }
+    .boxWithText__first {
+      display: block;
+      width: 350px;
+      margin-left: 0;
+      padding-top: 10px; }
+      .boxWithText__first__myButton {
+        display: block !important; }
+    .boxWithText__second {
+      padding-left: 10px;
+      width: 350px; } }
+
+@media screen and (min-width: 600px) {
+  .proba {
+    display: none; } }

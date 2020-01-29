@@ -1,0 +1,51 @@
+footer {
+  background-color: white;
+  color: black;
+  padding-top: 50px; }
+  footer button {
+    background-color: black;
+    border: none;
+    color: white;
+    text-transform: uppercase; }
+  footer .myFooterRow {
+    border-top: 1px solid lightgray;
+    padding-top: 20px; }
+    footer .myFooterRow img {
+      padding-bottom: 10px; }
+  footer .logoInFooter__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px; }
+    footer .logoInFooter__icons div {
+      background-color: black;
+      padding: 10px;
+      margin-right: 5px; }
+      footer .logoInFooter__icons div:hover {
+        background-color: #2aaeb3; }
+    footer .logoInFooter__icons .fa-instagram,
+    footer .logoInFooter__icons .fa-facebook-f,
+    footer .logoInFooter__icons .fa-twitter {
+      color: white; }
+
+@media screen and (min-width: 580px) and (max-width: 767px) {
+  footer .logoInFooter {
+    text-align: center; } }
+
+@media screen and (max-width: 579px) {
+  footer .myFooterDiv {
+    text-align: center; } }
+
+@media screen and (max-width: 575px) {
+  .myFooterDiv {
+    margin-top: 440px;
+    padding-bottom: 20px; }
+    .myFooterDiv .logoInFooter img {
+      margin-left: 30px;
+      width: 130px; }
+    .myFooterDiv .logoInFooter__icons {
+      display: flex;
+      justify-content: space-between;
+      width: 120px;
+      margin: 0 auto;
+      padding-top: 20px;
+      padding-bottom: 20px; } }

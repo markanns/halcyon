@@ -1,0 +1,225 @@
+.slick-initialized .slick-slide {
+  display: flex;
+  align-items: center; }
+
+.reviewSlider {
+  background-color: #f9f9f9;
+  height: 490px; }
+  .reviewSlider__first {
+    outline: none;
+    margin-left: 100px; }
+    .reviewSlider__first__divWithImg {
+      background-image: url("../images/girl12.png");
+      height: 490px;
+      width: 500px;
+      background-size: 400px;
+      background-repeat: no-repeat;
+      background-position: top; }
+    .reviewSlider__first__divWithText {
+      width: 400px;
+      margin-left: 70px;
+      display: grid;
+      grid-template-rows: 40px;
+      height: 400px; }
+      .reviewSlider__first__divWithText .colorChange {
+        color: #2aaeb3; }
+      .reviewSlider__first__divWithText__canvas {
+        background-color: black; }
+      .reviewSlider__first__divWithText h3 {
+        border-bottom: 1px solid black;
+        width: 240px;
+        margin-bottom: 0; }
+      .reviewSlider__first__divWithText p {
+        margin-bottom: 0; }
+
+.prev1 {
+  color: lightskyblue;
+  position: absolute;
+  top: 92%;
+  left: 33em;
+  font-size: 1.5em;
+  background-color: white;
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .prev1:hover {
+    cursor: pointer;
+    color: white;
+    background-color: lightskyblue; }
+
+.next1 {
+  color: lightskyblue;
+  position: absolute;
+  top: 92%;
+  right: 20em;
+  font-size: 1.5em;
+  background-color: white;
+  width: 40px;
+  padding-left: 10px; }
+  .next1:hover {
+    cursor: pointer;
+    color: white;
+    background-color: lightskyblue; }
+
+.reviewHeading {
+  border-bottom: 1px solid black;
+  width: 420px;
+  margin-bottom: -14px;
+  position: relative;
+  top: 80px;
+  left: 114px; }
+
+.reviewCan {
+  background-color: black;
+  position: relative;
+  top: 80px;
+  left: 114px; }
+
+.myContainerReview {
+  margin-top: 100px;
+  margin-bottom: 120px; }
+  .myContainerReview .slider__divImgPeople {
+    margin-top: 30px;
+    margin-right: 20px;
+    background-image: url("../images/girl2.jpg");
+    height: 350px;
+    background-size: 800px;
+    background-position: 500px 500px;
+    opacity: 0.2;
+    transition: 0.3s; }
+    .myContainerReview .slider__divImgPeople:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+      transition: transform .3s;
+      opacity: 1; }
+      .myContainerReview .slider__divImgPeople:hover::after {
+        content: 'Jane S';
+        position: relative;
+        left: 5px;
+        top: 47%;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+        text-align: center; }
+  .myContainerReview .slider__divImgPeople1 {
+    margin-top: 30px;
+    margin-right: 20px;
+    background-image: url("../images/man2.jpg");
+    height: 350px;
+    background-size: 600px;
+    background-position: center;
+    opacity: 0.2;
+    transition: 0.3s; }
+    .myContainerReview .slider__divImgPeople1:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+      transition: transform .3s;
+      opacity: 1;
+      overflow: visible; }
+      .myContainerReview .slider__divImgPeople1:hover::after {
+        content: 'Mark D';
+        position: relative;
+        left: -1px;
+        top: 47%;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+        text-align: center; }
+  .myContainerReview .slider__divImgPeople2 {
+    margin-top: 30px;
+    margin-right: 20px;
+    background-image: url("../images/man1.jpg");
+    height: 350px;
+    background-size: 550px;
+    background-position: center top;
+    opacity: 0.2;
+    transition: 0.3s; }
+    .myContainerReview .slider__divImgPeople2:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+      transition: transform .3s;
+      opacity: 1;
+      overflow: visible; }
+      .myContainerReview .slider__divImgPeople2:hover::after {
+        content: 'Jamie K';
+        position: relative;
+        left: -1px;
+        top: 47%;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+        text-align: center; }
+  .myContainerReview .slider__divImgPeople3 {
+    margin-top: 30px;
+    margin-right: 20px;
+    background-image: url("../images/girl2.jpg");
+    height: 350px;
+    background-size: 800px;
+    background-position: 500px 500px;
+    opacity: 0.2;
+    transition: 0.3s; }
+    .myContainerReview .slider__divImgPeople3:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+      transition: transform .3s;
+      opacity: 1;
+      overflow: visible; }
+      .myContainerReview .slider__divImgPeople3:hover::after {
+        content: 'Jane S';
+        position: relative;
+        left: -1px;
+        top: 47%;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+        text-align: center; }
+
+.prev2 {
+  color: black;
+  position: absolute;
+  top: 38%;
+  left: -3em;
+  font-size: 1.5em;
+  background-color: white;
+  width: 50px;
+  height: 40px;
+  padding-left: 15px; }
+  .prev2:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white; }
+
+.next2 {
+  color: black;
+  position: absolute;
+  top: 38%;
+  right: -4em;
+  font-size: 1.5em;
+  background-color: white;
+  width: 50px;
+  height: 40px;
+  padding-left: 15px; }
+  .next2:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white; }
+
+@media screen and (max-width: 575px) {
+  .probaSaSlikom {
+    display: block; }
+  .reviewSlider {
+    display: none; }
+  .reviewSlider__first__divWithImg {
+    width: 350px; }
+  .reviewSlider__first__divWithText {
+    padding-top: 40px;
+    width: 350px;
+    margin-left: 10px;
+    width: 320px; }
+  .prev1,
+  .next1 {
+    display: none !important; }
+  .reviewHeading,
+  .reviewCan,
+  .myContainerReview {
+    display: none; } }
+
+@media screen and (min-width: 576px) {
+  .probaSaSlikom {
+    display: none; } }

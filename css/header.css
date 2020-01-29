@@ -1,0 +1,177 @@
+.myNavbar {
+  font-size: 14px;
+  background-color: white; }
+  .myNavbar i {
+    color: gray; }
+  .myNavbar__logo {
+    width: max-content;
+    margin: 0 auto; }
+    .myNavbar__logo img {
+      width: 200px; }
+  .myNavbar__main-nav {
+    list-style-type: none;
+    background-color: gray;
+    margin-bottom: 0;
+    display: none;
+    padding-left: 0; }
+    .myNavbar__main-nav__nav-links {
+      color: white; }
+    .myNavbar__main-nav li:last-child {
+      margin-bottom: 0; }
+  .myNavbar__main-nav li {
+    text-align: center;
+    margin: 15px auto; }
+
+.myDropBtn {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 40px;
+  font-size: 14px; }
+  .myDropBtn:hover {
+    border-bottom: 2px solid #2aaeb3; }
+  .myDropBtn:focus {
+    box-shadow: none; }
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8); }
+
+.myAngebot {
+  display: block; }
+
+.dropdown {
+  display: none; }
+
+.myDropdown {
+  width: 220px; }
+
+.active {
+  display: block; }
+
+@media screen and (max-width: 575px) {
+  .headings {
+    display: none; }
+  .rooms button {
+    display: none; } }
+
+@media screen and (min-width: 576px) {
+  .myNavbar__logo {
+    margin-top: 0;
+    margin-left: 10px; }
+    .myNavbar__logo img {
+      width: max-content; }
+  .navbar-toggle {
+    right: 50px;
+    font-size: 24px; } }
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+  .myAngebot {
+    display: none; }
+  .dropdown {
+    display: block; }
+  .myNavbar {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0;
+    height: 80px;
+    align-items: center; }
+    .myNavbar__main-nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: white;
+      padding-right: 20px; }
+      .myNavbar__main-nav__nav-links {
+        margin-left: 40px; }
+      .myNavbar__main-nav a {
+        margin-left: 2px;
+        text-transform: uppercase;
+        color: black; }
+      .myNavbar__main-nav .myDropBtn {
+        margin-left: 2px; }
+    .myNavbar__logo {
+      padding-left: 50px;
+      margin-top: 0; }
+      .myNavbar__logo img {
+        width: max-content; }
+    .myNavbar .navbar-toggle {
+      display: none; } }
+
+@media screen and (min-width: 1101px) {
+  header {
+    background: url(../images/kitchenImg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 685px; }
+  .myAngebot {
+    display: none; }
+  .dropdown {
+    display: block; }
+  .myNavbar {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0;
+    background-color: transparent; }
+    .myNavbar__main-nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: transparent;
+      margin: 0; }
+      .myNavbar__main-nav__nav-links {
+        margin-left: 55px; }
+      .myNavbar__main-nav a {
+        padding-bottom: 20px;
+        color: black; }
+        .myNavbar__main-nav a:hover {
+          border-bottom: 2px solid #2aaeb3;
+          text-decoration: none; }
+      .myNavbar__main-nav li:last-child {
+        background-color: #2aaeb3;
+        padding-right: 50px;
+        margin-top: 0;
+        margin-left: 20px;
+        padding-top: 15px; }
+        .myNavbar__main-nav li:last-child a {
+          color: white; }
+    .myNavbar .dropdown-menu li {
+      background-color: white; }
+      .myNavbar .dropdown-menu li a:hover {
+        color: #2aaeb3;
+        border-bottom: none; }
+    .myNavbar .dropdown-menu li:last-child {
+      padding-right: 20px;
+      margin-top: 0;
+      margin-left: 20px;
+      padding-top: 0px; }
+      .myNavbar .dropdown-menu li:last-child a {
+        color: black; }
+        .myNavbar .dropdown-menu li:last-child a:hover {
+          color: #2aaeb3; }
+    .myNavbar__logo {
+      padding-left: 180px;
+      margin-top: 14px; }
+      .myNavbar__logo img {
+        width: max-content;
+        height: 36px;
+        width: 110px; }
+    .myNavbar .navbar-toggle {
+      display: none; }
+  .headings {
+    position: relative;
+    top: 21%;
+    left: 14%;
+    width: 450px; }
+    .headings h1 {
+      text-transform: uppercase;
+      font-size: 48px;
+      letter-spacing: 2px; }
+    .headings__button {
+      background-color: #2aaeb3;
+      color: white;
+      border: none;
+      padding: 10px; }
+      .headings__button canvas {
+        background-color: white;
+        margin-bottom: 5px;
+        margin-left: 5px; } }
