@@ -1,0 +1,308 @@
+//mobile view
+.myNavbar {
+    font-size: 14px;
+    background-color: white;
+
+
+    i {
+        color: gray;
+    }
+
+
+    &__logo {
+        width: max-content;
+        margin: 0 auto;
+
+        img {
+
+            width: 200px;
+        }
+    }
+
+    &__main-nav {
+        list-style-type: none;
+        background-color: gray;
+        margin-bottom: 0;
+        display: none;
+        padding-left: 0;
+
+        &__nav-links {
+            color: white;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+    }
+
+    &__main-nav li {
+        text-align: center;
+        margin: 15px auto;
+    }
+
+
+}
+
+.myDropBtn {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+
+    &:hover {
+        border-bottom: 2px solid rgb(42, 174, 179);
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.myAngebot {
+    display: block;
+
+}
+
+.dropdown {
+    display: none;
+
+}
+
+.myDropdown {
+    width: 220px;
+}
+
+
+.active {
+    display: block;
+}
+
+
+@media screen and (max-width:575px) {
+    .headings {
+        display: none;
+
+    }
+
+    .rooms {
+        button {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .myNavbar__logo {
+        margin-top: 0;
+        margin-left: 10px;
+
+        img {
+            width: max-content;
+        }
+    }
+
+    .navbar-toggle {
+        right: 50px;
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (min-width: 850px) and (max-width:1100px) {
+
+    .myAngebot {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .myNavbar {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 0;
+        height: 80px;
+        align-items: center;
+
+        &__main-nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            padding-right: 20px;
+
+            &__nav-links {
+                margin-left: 40px;
+            }
+
+            a {
+                margin-left: 2px;
+                text-transform: uppercase;
+                color: black;
+
+            }
+
+            .myDropBtn {
+                margin-left: 2px;
+            }
+        }
+
+
+
+        &__logo {
+            padding-left: 50px;
+            margin-top: 0;
+
+            img {
+                width: max-content;
+            }
+        }
+
+        .navbar-toggle {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    header {
+        background: url(../images/kitchenImg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 685px;
+    }
+
+    .myAngebot {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+
+
+    }
+
+
+
+    .myNavbar {
+
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 0;
+        background-color: transparent;
+
+        &__main-nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: transparent;
+
+            margin: 0;
+
+            &__nav-links {
+                margin-left: 55px;
+            }
+
+            a {
+                padding-bottom: 20px;
+                color: black;
+
+                &:hover {
+                    border-bottom: 2px solid rgb(42, 174, 179);
+                    text-decoration: none;
+                }
+            }
+
+            li:last-child {
+                background-color: rgb(42, 174, 179);
+                padding-right: 50px;
+                margin-top: 0;
+                margin-left: 20px;
+                padding-top: 15px;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+
+        .dropdown-menu {
+            li {
+                background-color: white;
+
+                a:hover {
+                    color: rgb(42, 174, 179);
+                    border-bottom: none;
+                }
+            }
+
+            li:last-child {
+                padding-right: 20px;
+                margin-top: 0;
+                margin-left: 20px;
+                padding-top: 0px;
+
+                a {
+                    color: black;
+
+                    &:hover {
+                        color: rgb(42, 174, 179);
+                    }
+                }
+            }
+
+        }
+
+
+        &__logo {
+            padding-left: 180px;
+            margin-top: 14px;
+
+            img {
+                width: max-content;
+                height: 36px;
+                width: 110px;
+            }
+        }
+
+        .navbar-toggle {
+            display: none;
+        }
+    }
+
+    .headings {
+        position: relative;
+        top: 21%;
+        left: 14%;
+        width: 450px;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 48px;
+            letter-spacing: 2px;
+        }
+
+        &__button {
+            background-color: rgb(42, 174, 179);
+            color: white;
+            border: none;
+            padding: 10px;
+
+            canvas {
+                background-color: white;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+        }
+    }
+}

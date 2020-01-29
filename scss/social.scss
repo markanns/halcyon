@@ -1,0 +1,74 @@
+.socialNetwork {
+    height: 500px;
+
+    &__socialButton {
+        display: flex;
+        height: 150px;
+        width: 900px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        h2 {
+            color: rgb(42, 174, 177);
+        }
+
+        button {
+            background-color: rgb(42, 174, 177);
+            color: white;
+            width: 150px;
+            border: none;
+        }
+
+        &__myCanvas {
+            background-color: white;
+            margin-bottom: 5px;
+        }
+    }
+
+    .firstImg {
+        width: 300px;
+        height: 200px;
+        background-image: url('../images/room1.jpg');
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .secondImg {
+        width: 300px;
+        height: 200px;
+        background-image: url('../images/room2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .thirdImg {
+        width: 300px;
+        height: 200px;
+        background-image: url('../images/room3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fourthImg {
+        width: 300px;
+        height: 200px;
+        background-image: url('../images/room4.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+
+}
+
+
+
+@media screen and(max-width:575px) {
+    .socialNetwork {
+        &__socialButton {
+            width: 200px;
+        }
+    }
+}
